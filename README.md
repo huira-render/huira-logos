@@ -1,5 +1,7 @@
-Huira Logos
+<img src="source/wide/wide_blue_on_transparent.svg" alt="Huira Logo" width="400">
 
-- `png/`: PNG formats
-- `source/`: original `.ai` and `.eps` source files
-- `svg/`: SVG formats
+
+## Content Structure
+- `export/`: Exported PNG formats
+- `source/`: SVG formats
+- `legacy/`: Original `.ai` and `.eps` source files
