@@ -35,10 +35,11 @@ EXPORT_RULES=(
     "icon/icon_white_on_transparent.svg 128 128"
     "icon/icon_white_on_transparent.svg 32  favicon"
     
-    # FULL (rectangular, scale by width)
+    # WIDE
     "wide/wide_blue_on_transparent.svg 500x 500"
     "wide/wide_blue_on_white.svg 500x 500"
     "wide/wide_white_on_blue.svg 500x 500"
+    "wide/wide_white_on_transparent.svg 500x 500"
 )
 
 
