@@ -8,21 +8,24 @@
   <!-- Adaptive color scheme styles -->
   <defs>
     <style>
-      /* Light mode - blue color */
+      /* Default to blue (safe fallback - visible on both light and dark backgrounds) */
       .adaptive-fill {
         fill: #0a2360;
+        fill-opacity: 1;
       }
       
-      /* Dark mode - white color */
+      /* Only switch to white when dark mode is explicitly detected */
       @media (prefers-color-scheme: dark) {
         .adaptive-fill {
           fill: #ffffff;
+          fill-opacity: 1;
         }
       }
       
       /* Red accent stays the same in both modes */
       .red-accent {
         fill: #ea0a2a;
+        fill-opacity: 1;
       }
     </style>
   </defs>
